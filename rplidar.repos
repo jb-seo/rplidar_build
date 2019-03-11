@@ -1,0 +1,25 @@
+repositories:
+  cartographer/ceres-solver:
+    type: git
+    url: https://ceres-solver.googlesource.com/ceres-solver.git
+    version: master
+  cartographer/cartographer:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/cartographer.git
+    version: crystal
+  cartographer/cartographer_ros:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/cartographer_ros.git
+    version: crystal
+  cartographer/pcl_conversions:
+    type: git
+    url: https://github.com/ros2/pcl_conversions.git
+    version: ros2
+  rplidar/rplidar_cartgographer:
+    type: git
+    url: https://github.com/jb-seo/rplidar_cartographer.git
+    version: master
+  rplidar/rplidar_ros:
+    type: git
+    url: https://github.com/jb-seo/rplidar_ros2.git
+    version: ros2
